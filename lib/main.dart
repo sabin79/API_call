@@ -1,5 +1,6 @@
 import 'package:apicall/homepage.dart';
 import 'package:apicall/photo.dart';
+import 'package:apicall/userjosn.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PhotoApi(),
+      home: Usermodel(),
     );
   }
 }
