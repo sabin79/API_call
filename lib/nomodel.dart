@@ -49,6 +49,18 @@ class _NoModelState extends State<NoModel> {
                             Rowuse(
                                 title: 'username',
                                 value: data[index]['username'].toString()),
+                            Rowuse(
+                                title: 'address',
+                                value: data[index]['address']['street']
+                                    .toString()),
+                            Rowuse(
+                                title: 'lat',
+                                value: data[index]['address']['geo']['lat']
+                                    .toString()),
+                            Rowuse(
+                                title: 'lng',
+                                value: data[index]['address']['geo']['lng']
+                                    .toString()),
                           ]),
                         );
                       });
