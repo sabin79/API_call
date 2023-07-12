@@ -1,3 +1,4 @@
+import 'package:apicall/complex.dart';
 import 'package:apicall/homepage.dart';
 import 'package:apicall/nomodel.dart';
 import 'package:apicall/photo.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: NoModel(),
+      home: ComplexModel(),
     );
   }
 }
