@@ -1,10 +1,5 @@
-import 'package:apicall/complex.dart';
-import 'package:apicall/homepage.dart';
-import 'package:apicall/nomodel.dart';
-import 'package:apicall/photo.dart';
-import 'package:apicall/userjosn.dart';
+import 'package:apicall/login-signup/signupPage.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ComplexModel(),
+      home: SignUpPage(),
     );
   }
 }

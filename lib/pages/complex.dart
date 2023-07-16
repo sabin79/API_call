@@ -79,7 +79,7 @@ class _ComplexModelState extends State<ComplexModel> {
                                                 0.5,
                                         decoration: BoxDecoration(
                                           borderRadius:
-                                              BorderRadius.circular(17),
+                                              BorderRadius.circular(30),
                                           image: DecorationImage(
                                             fit: BoxFit.cover,
                                             image: NetworkImage(snapshot
